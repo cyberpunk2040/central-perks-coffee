@@ -1,0 +1,128 @@
+body{
+    background-image: url();
+    margin: 0;
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: slategray;
+}
+.header{
+    padding: 45px 0 20px 40px;
+    border: 2px solid brown;
+}
+.menu{
+    background: sienna;
+    padding: 6px 0 6px 40px;
+}
+.menu a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu a:hover{
+    color: whitesmoke;
+
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+h1{
+    margin: 0px;
+    color: bisque;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    color: antiquewhite;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+
+.main a:hover{
+    color: aliceblue;
+}
+
+#home-image img{
+    width: 100%;
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: cornsilk;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(65, 60, 60);
+    font-size: 11px;
+    text-decoration: right;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+
+}
+
+.link-title{
+    text-decoration: none;
+    font-size: 25px;
+    color:seashell;
+
+}
+
+.separator{
+    color: rgb(179, 155, 127);
+    font-size: 11px ;
+}
+
+/************************************About page style****************************/
+
+
+#about-page #home-image img{
+         width: 50%;
+         height: 10%;
+         float: left;
+         margin-bottom: 10px;
+}
+
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+
+}
+
+#about-page .description{
+    clear: both;
+}
+/***********************************contact us *******************************/
+#contact #form{
+    width: 500px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+}
+
+ .page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
